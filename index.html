@@ -1,0 +1,328 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wordsmith Publishers</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100 text-gray-900">
+
+
+  <header class="bg-gray-800 text-white py-8 text-center">
+    <h1 class="text-6xl font-extrabold tracking-wider uppercase ">Wordsmith Publishers</h1>
+  </header>
+
+
+  <nav class="bg bg-blue-900 text-white py-4 text-2xl font-bold">
+    <ul class="flex justify-center gap-8">
+      <li class="hover:text-yellow-400 cursor-pointer transition duration-100">About</li>
+      <li class="hover:text-yellow-400 cursor-pointer transition duration-300">Services</li>
+      <li class="hover:text-yellow-400 cursor-pointer transition duration-300">Submission</li>
+      <li class="hover:text-yellow-400 cursor-pointer transition duration-300">Blogs</li>
+      <li class="hover:text-yellow-400 cursor-pointer transition duration-300">Shop</li>
+      <li class="hover:text-yellow-400 cursor-pointer transition duration-300">Contact Us</li>
+    </ul>
+  </nav>
+  <br>
+  <br>
+  <h2 class="text-center text-4xl font-bold text-gray-800 mb-8 uppercase font-extrabold font-georgia"> Where ideas shape into words </h2>
+
+  <section class="mt-16 px-6 bg-gray-800 py-12">
+    <div class="max-w-3xl mx-auto">
+      
+      <p class="text-white text-center leading-relaxed text-3xl font-georgia">
+        'Wordsmith Publishers' is a pioneer publishing company specializing in books of all genres in Arabic, English, and
+        Urdu. Our team of experts helps authors publish their books with professional editing, cover design, and
+        distribution services to reach a global audience.
+      </p>
+    </div>
+  </section>
+
+  <section class="relative w-full max-w-4xl mx-auto mt-8 overflow-hidden">
+    <div class="relative h-100 md: h-96">
+      <div class="absolute inset-0 flex transition-transform duration-500 ease-in-out" id="slider">
+        <img src="     https://i.pinimg.com/736x/7e/5b/15/7e5b15cc0d88e2523af81552fb37d2c6.jpg"
+          class="w-full object-cover" alt="Slide 1">
+        <img src="https://i.pinimg.com/736x/38/9a/aa/389aaa7c15f40fe5db394e034ff021cd.jpg" class="w-full object-cover"
+          alt="Slide 2">
+        <img src="https://i.pinimg.com/736x/20/d5/1b/20d51b9570220ce7d09c499f3a925a8e.jpg" class="w-full object-cover"
+          alt="Slide 3">
+        <img src="https://i.pinimg.com/736x/1e/34/c0/1e34c03ef46a14f999ae078cc2cfa668.jpg" class="w-full object-cover"
+          alt="Slide 4">
+
+      </div>
+      <div class="absolute inset-0 flex justify-between items-center px-4">
+        <button class="bg-white text-black p-3 rounded-full shadow-md hover:bg-gray-300"
+          onclick="prevSlide()">&#10094;</button>
+        <button class="bg-white text-black p-3 rounded-full shadow-md hover:bg-gray-300"
+          onclick="nextSlide()">&#10095;</button>
+      </div>
+    </div>
+  </section>
+  <br> <br>
+
+
+
+  <section class="py-12 bg-gray-200">
+    <div class="max-w-7xl mx-auto px-4">
+      <h2 class="text-4xl font-bold text-center mb-8">New Arrivals</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        <!-- Book Card -->
+        <div class="bg-gray-200 text-white shadow-lg rounded-lg overflow-hidden">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQC1t2grufgUymt6JI1MdaTUdpKozaBnpwOQ&s"
+            alt="Book Cover" class="w-full h-60 object-cover">
+          <div class="p-4">
+            <h3 class="text-lg font-bold text-black">Arabic Grammar</h3>
+            <p class="text-sm text-black"> by Dr Haroon Haseeb</p>
+            <p class="mt-2 text-black uppercase">pkr 1949/-</p>
+            <button class="mt-4 w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-gray-900 transition">
+              Buy Now
+            </button>
+          </div>
+        </div>
+
+        <!-- Repeat similar book cards -->
+        <div class="bg-gray-200 shadow-lg rounded-lg overflow-hidden">
+          <img
+            src="https://images-platform.99static.com/ESwoi3BCAjyorLJD8k9z7p9_4L8=/0x0:1788x1788/500x500/top/smart/99designs-contests-attachments/122/122144/attachment_122144229"
+            alt="Book Cover" class="w-full h-60 object-cover">
+          <div class="p-4">
+            <h3 class="text-lg font-bold text-black">Way to the Paradise</h3>
+            <p class="text-sm text-black">by Dr Haroon Haseeb</p>
+            <p class="mt-2 text-black uppercase"> pkr 1650/-</p>
+            <button class="mt-4 w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-gray-900 transition">
+              Buy Now
+            </button>
+          </div>
+        </div>
+        <!-- Repeat similar book cards -->
+        <div class="bg-gray-200 shadow-lg rounded-lg overflow-hidden">
+          <img src="https://img.freepik.com/free-vector/abstract-elegant-winter-book-cover_23-2148798745.jpg"
+            alt="Book Cover" class="w-full h-60 object-cover">
+          <div class="p-4">
+            <h3 class="text-lg font-bold text-black">Different Winter</h3>
+            <p class="text-sm text-black">by Hafsa Tahir</p>
+            <p class="mt-2 text-black uppercase"> pkr 1950/-</p>
+            <button class="mt-4 w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-gray-900 transition">
+              Buy Now
+            </button>
+          </div>
+        </div>
+        <!-- Repeat similar book cards -->
+        <div class="bg-gray-200 shadow-lg rounded-lg overflow-hidden">
+          <img
+            src="data:image/jpeg;base64,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"
+            alt="Book Cover" class="w-full h-60 object-cover">
+          <div class="p-4">
+            <h3 class="text-lg font-bold text-black"> I Love Ramadhan </h3>
+            <p class="text-sm text-black">by Farida Tahir</p>
+            <p class="mt-2 text-black uppercase"> pkr 245/-</p>
+            <button class="mt-4 w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-gray-900 transition">
+              Buy Now
+            </button>
+          </div>
+        </div>
+        <br>
+      </div>
+  </section>
+
+  <section class="py-12 bg-white">
+    <div class="max-w-7xl mx-auto px-4">
+      <h2 class="text-4xl font-bold text-center mb-8">More Books</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        <!-- Book Card -->
+        <div class="bg-gray-200 text-white shadow-lg rounded-lg overflow-hidden">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRG3dmxcrP72P2lBRxO11or2DEBWG4uhT7kbg&s"
+            alt="Book Cover" class="w-full h-60 object-cover">
+          <div class="p-4">
+            <h3 class="text-lg font-bold text-black"> Me & My Brother </h3>
+            <p class="text-sm text-black">by Farida Tahir</p>
+            <p class="mt-2 text-black uppercase">pkr 170/-</p>
+            <button class="mt-4 w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-gray-900 transition font-bold">
+              Buy Now
+            </button>
+          </div>
+        </div>
+
+        <!-- Repeat similar book cards -->
+        <div class="bg-gray-200 shadow-lg rounded-lg overflow-hidden">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXEPyldQlVlLGBhXJTl7HT78U0SJcFUEeNsg&s"
+            alt="Book Cover" class="w-full h-60 object-cover">
+          <div class="p-4">
+            <h3 class="text-lg font-bold text-black"> Elik </h3>
+            <p class="text-sm text-black">by Abdul Rahman </p>
+            <p class="mt-2 text-black uppercase"> pkr 1280/-</p>
+            <button class="mt-4 w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-gray-900 transition">
+              Buy Now
+            </button>
+          </div>
+        </div>
+        <!-- Repeat similar book cards -->
+        <div class="bg-gray-200 shadow-lg rounded-lg overflow-hidden">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHSOlYi2eNOmjjgzw7bO0FX4O6F2PCzclagw&s"
+            alt="Book Cover" class="w-full h-60 object-cover">
+          <div class="p-4">
+            <h3 class="text-lg font-bold text-black"> Find Some Joy </h3>
+            <p class="text-sm text-black">by Hafsa Tahir </p>
+            <p class="mt-2 text-black uppercase"> pkr 750/-</p>
+            <button class="mt-4 w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-gray-900 transition">
+              Buy Now
+            </button>
+          </div>
+        </div>
+        <!-- Repeat similar book cards -->
+        <div class="bg-gray-200 shadow-lg rounded-lg overflow-hidden">
+          <img
+            src="data:image/jpeg;base64,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"
+            alt="Book Cover" class="w-full h-60 object-cover">
+          <div class="p-4">
+            <h3 class="text-lg font-bold text-black"> You are Sahabia also! </h3>
+            <p class="text-sm text-black">by Dr Haroon Haseeb </p>
+            <p class="mt-2 text-black uppercase"> pkr 1050/-</p>
+            <button class="mt-4 w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-gray-900 transition">
+              Buy Now
+            </button>
+          </div>
+        </div>
+        <br>
+      </div>
+  </section>
+
+  <br> <br>
+  <section class="mt-16 px-6">
+    <h2 class="text-center text-3xl font-bold text-gray-800 mb-8"> Our Services </h2>
+    <div class="flex justify-center gap-6">
+      <div
+        class="w-full md:w-1/3 p-6 bg-yellow-50 text-black rounded-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition duration-300">
+        <div class="flex justify-center items-center h-24 w-24 bg-white rounded-full mx-auto mb-4">
+          <img src="https://img.icons8.com/ios/452/edit-property.png" alt="Edit Icon">
+        </div>
+        <h3 class="text-8x1 font-extrabold text-center mb-2 uppercase text-black md:font-sans">Editing & Proofreading
+        </h3>
+        <p class="text-black text-center text-x2 md:font-sans">"At Wordsmith Publishers, Author finds world-class
+          Arabic, English,
+          and Urdu
+          proofreading and editing services that elevate their manuscripts to global publishing standards. Whether they
+          are
+          an established author or a first-time writer, we ensure your work is polished, precise, and publication-ready.
+          From grammar and syntax to tone and stylistic consistency, we refine every detail to make your content
+          resonate with readers worldwide. Specializing in books, and academic publications, we tailor our
+          expertise to help your voice shine across cultures and languages, giving your work the professional edge it
+          deserves in today’s competitive market.".</p>
+      </div>
+      <div
+        class="w-full md:w-1/3 p-6 bg-yellow-50 text-white rounded-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition duration-300">
+        <div class="flex justify-center items-center h-24 w-24 bg-white rounded-full mx-auto mb-4">
+          <img src="https://img.icons8.com/ios/452/edit-property.png" alt="Edit Icon">
+        </div>
+        <h3 class="text-4x8 font-extrabold text-center mb-2 uppercase text-black md:font-sans">Arabic - English
+          Translation and
+          ineterpretation </h3>
+        <p class="text-black text-center text-8x8 md:font-segoe UI">"At Wordsmith Publishers, we offer premium Arabic,
+          English, and Urdu
+          translation and interpretation services tailored for the global publishing industry and beyond. Whether you’re
+          an author, researcher, or business professional, we ensure your message is accurately conveyed across
+          languages and cultures. Our expert linguists deliver precise translations with cultural and contextual
+          sensitivity, while our interpretation services provide seamless communication in real-time settings. From
+          books and academic papers to corporate materials and creative works, we help bridge language barriers,
+          ensuring your content connects with audiences worldwide and stands out in the global market."</p>
+      </div>
+    </div> <br> <br>
+  </section>
+
+  <section class="mt-16 px-6">
+      <div class="flex justify-center gap-6">
+      <div
+        class="w-full md:w-1/3 p-6 bg-gray-200 text-black rounded-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition duration-300">
+        <div class="flex justify-center items-center h-24 w-24 bg-white rounded-full mx-auto mb-4">
+          <img src="https://img.icons8.com/ios/452/edit-property.png" alt="Edit Icon">
+        </div>
+        <h3 class="text-8x1 font-extrabold text-center mb-2 uppercase text-black md:font-sans">Graphic Designing
+        </h3>
+        <p class="text-black text-center text-x2 md:font-sans">"At Wordsmith Publishers is a place where concepts transforms  into captivating visuals that tell your brand's story. Expert team of graphic design encompass a wide range of creative solutions, including bespoke logos, complete branding packages, striking marketing materials, digital illustrations, and more. Whether it’s creating attention-grabbing social media graphics, designing professional brochures, or crafting visuals that resonate across platforms, our expert team ensures every detail reflects your brand’s identity with precision and flair.  
+          
+        With a commitment to innovation and excellence, we combine artistry with strategy to deliver designs that don’t just look good but also inspire action. Let us help you create an unforgettable visual presence that leaves a lasting impression on your audience."</p>
+      </div>
+      <div
+        class="w-full md:w-1/3 p-6 bg-gray-200 text-white rounded-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition duration-300">
+        <div class="flex justify-center items-center h-24 w-24 bg-white rounded-full mx-auto mb-4">
+          <img src="https://img.icons8.com/ios/452/edit-property.png" alt="Edit Icon">
+        </div>
+        <h3 class="text-4x8 font-extrabold text-center mb-2 uppercase text-black md:font-sans">Digital Marketing </h3>
+        <p class="text-black text-center text-8x8 md:font-segoe UI">"Wordsmith Publishers leads the way in innovative digital marketing solutions. Where experts create engaging campaigns, manage social platforms, craft persuasive content, and build authentic connections with your audience. Strategies at Worthsmith Publishers are tailored to amplify author's voice, boost visibility, and drive meaningful interactions. By blending creativity with precision, we ensure your business thrives in the digital landscape."</p>
+      </div>
+    </div> <br> <br>
+  </section>
+  
+  <br> <br>
+  <footer class="bg-gray-800 text-white py-12">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+        <div>
+          <h3 class="text-xl font-bold mb-4">About Wordsmith Publishers</h3>
+          <p class="text-sm text-gray-300">
+            Wordsmith Publishers specializes in publishing books in various genres and languages, including Arabic,
+            English, and Urdu. We aim to help authors bring their stories to life and reach a global audience.
+          </p>
+        </div>
+
+        <div>
+          <h3 class="text-xl font-bold mb-4">Quick Links</h3>
+          <ul class="text-sm text-gray-300 space-y-2">
+            <li><a href="#" class="hover:underline">About</a></li>
+            <li><a href="#" class="hover:underline">Services</a></li>
+            <li><a href="#" class="hover:underline">Submission</a></li>
+            <li><a href="#" class="hover:underline">Blogs</a></li>
+            <li><a href="#" class="hover:underline">Shop</a></li>
+            <li><a href="#" class="hover:underline">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="text-xl font-bold mb-4">Subscribe to Our Newsletter</h3>
+          <form class="flex flex-col space-y-4">
+            <input type="email" placeholder="Enter your email"
+              class="px-4 py-2 rounded-lg bg-gray-700 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500">
+            <input type="tel" placeholder="+92 300 1234567"
+              class="px-4 py-2 rounded-lg bg-gray-700 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500">
+            <button type="submit" class="bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition">
+              Subscribe
+            </button>
+          </form>
+        </div>
+      </div>
+      <div class="mt-8 text-center text-gray-500 text-sm">
+        &copy; 2025 Wordsmith Publishers. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+
+  <script>
+    let currentIndex = 0;
+    const slides = document.querySelectorAll('#slider img');
+    const totalSlides = slides.length;
+
+    function showSlide(index) {
+      const slider = document.getElementById('slider');
+      slider.style.transform = `translateX(-${index * 100}%)`;
+    }
+
+    function nextSlide() {
+      currentIndex = (currentIndex + 1) % totalSlides;
+      showSlide(currentIndex);
+    }
+
+    function prevSlide() {
+      currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
+      showSlide(currentIndex);
+    }
+  </script>
+
+</body>
+
+</html>
